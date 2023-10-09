@@ -36,6 +36,8 @@ fn HomePage() -> impl IntoView {
         set_count.update(|count| {
             *count += 1;
         });
+        //let window = window();
+        //println!("window: {:?}", window);
 
     view! {
       <div class="w-full m-4">
